@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+input[type="text"] {
+  width: calc(100% - 120px);
+  margin-right: 10px;
+}
+
+button {
+  margin-right: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.expense-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expense-actions button {
+  margin-left: 5px;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 600px) {
+  input[type="text"] {
+    width: calc(100% - 80px);
+  }
+}
+
